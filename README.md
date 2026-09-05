@@ -97,7 +97,7 @@ demo repeatedly.
   (`POST /v1/payment_links`) in test mode, and track the real callback status
   instead of the weighted random roll.
 
-## Known limitations (say this out loud in the pitch — it's honest, not a weakness)
+## limitations 
 
 - Recovery *outcomes* (did the retry actually succeed) are simulated with
   weighted probabilities, since this is a test-mode/synthetic demo. The
